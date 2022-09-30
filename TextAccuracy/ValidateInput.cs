@@ -15,7 +15,7 @@
         }
 
         
-        /* Probably too complicated for a typeracer type of game and would make it way too easier for the player to score points, will probably review at some point */
+        /* Probably too complicated for a typeracer type of game and would make it way too easy for the player to score points, will probably review at some point */
 
         //private static bool TwoTwisted(string inputWord, string givenWord) 
         //{

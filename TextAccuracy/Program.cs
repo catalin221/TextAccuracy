@@ -1,5 +1,4 @@
-﻿using Faker;
-using System.Net;
+﻿using System.Net;
 
 namespace TextAccuracy
 {
@@ -8,7 +7,7 @@ namespace TextAccuracy
         static void Main(string[] args)
         {
             Console.WriteLine(GenerateText.RandomText() + '\n');
-            
+            //UserInput.ReadInput();
         }
     }
 }

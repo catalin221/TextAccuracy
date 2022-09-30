@@ -4,11 +4,9 @@
     {
         public static void SaveToFile(string path, int percentage, int tryCount)
         {
-            string fullPath = path + "Results.txt";
-
             try
             {
-                File.AppendAllText(fullPath, String.Format("You have scored {0} on try {1}", percentage.ToString(), tryCount));
+                File.AppendAllText(path, String.Format("You have scored {0} on try {1}", percentage.ToString(), tryCount));
             }
             catch(Exception ex)
             {
