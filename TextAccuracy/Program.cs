@@ -1,10 +1,14 @@
-﻿namespace TextAccuracy
+﻿using Faker;
+using System.Net;
+
+namespace TextAccuracy
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(GenerateText.RandomText() + '\n');
+            
         }
     }
 }
