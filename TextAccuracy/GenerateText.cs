@@ -16,6 +16,7 @@ namespace TextAccuracy
             {
                 text += word + ' ';
             }
+
             text = text.Trim();
 
             return text;

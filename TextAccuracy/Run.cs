@@ -2,7 +2,7 @@
 {
     public static class Run
     {
-        public static void Run()
+        public static void RunProgram()
         {
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
             Console.WriteLine(@"Welcome to the challenge! You have 60 seconds to finish it from the beginning of the first key press, " +
@@ -16,7 +16,7 @@
             }
 
 
-            SaveResult.SaveToFile(desktopPath, percentage, tryCount);
+            //SaveResult.SaveToFile(desktopPath, percentage, tryCount);
         }
     }
 }
