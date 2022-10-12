@@ -8,7 +8,7 @@ namespace TextAccuracy
         static void Main(string[] args)
         {
             //Console.WriteLine(GenerateText.RandomText() + '\n');
-            //UserInput.ReadInput();
+            UserInput.ReadInput();
         }
     }
 }
